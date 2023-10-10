@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 try:
     import pypandoc
     long_description = pypandoc.convert('README.md', 'rst')
-    print "README.md succesfully converted"
+    print("README.md succesfully converted")
 except(IOError, ImportError):
     long_description = open('README.md').read()
 
